@@ -38,17 +38,28 @@ nav {
     font-size: 1rem;
 }
 
-a {
-    color: white;
+#desktop-nav ul li a {
+    color: #fff;
     text-decoration: none;
-    text-decoration-color: white;
+    position: relative;
+
 }
 
-a:hover {
-    color: grey;
-    text-decoration: underline;
-    text-underline-offset: 0.5rem;
-    text-decoration-color: rgb(181, 181, 181);
+#desktop-nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 4px;
+    background: rgb(181, 181, 181);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+    border-radius: 4px;
+    
+}
+
+#desktop-nav ul li a:hover::after {
+    width: 100%;
 }
 
 .logo img {
@@ -352,5 +363,3 @@ footer{
     justify-content: center;
 
 }
-
-
