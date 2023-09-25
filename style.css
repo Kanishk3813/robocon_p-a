@@ -317,14 +317,14 @@ footer{
     font-size: large;
     color: white;
 }
-.name{
+.text{
 
     font-size: 30px;
     display: flex;
     justify-content: center;
    
 }
-.name2{
+.text1{
     margin: 1px 220px;
     padding-top: 5px;
 
@@ -348,14 +348,15 @@ footer{
     color:rgb(0, 157, 255);
     transform: translateY(-5px);
 }
-.name3{
+.text2{
     display: flex;
     justify-content: center;
 
 }
-.name4{
+.text3{
     color: white;
     display: flex;
     justify-content: center;
 
 }
+
