@@ -13,6 +13,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.logo img {
+    height: 50px;
+    max-width: 49px;
+    border-radius: 8px;
+    position: relative;
+    left: 138px;
+}
 
 .head h1 {
     font-size: 20px;
@@ -62,16 +69,6 @@ nav {
     width: 100%;
 }
 
-.logo img {
-    width: 140%;
-    position: relative;
-    padding-left: 120px;
-}
-
-
-.logo {
-    width: 3%;
-}
 
 .title1 h1 {
     display: flex;
@@ -288,8 +285,7 @@ nav {
 }
 
 
-
-.jerry{
+.foot{
     font-family: 'Poppins', sans-serif;
     font-weight: 2500;
     font-size: 19px;
