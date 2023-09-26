@@ -97,6 +97,8 @@ nav {
     margin: 0;
 }
 
+
+
 .card {
     width: 100px;
     height: 100px;
@@ -113,12 +115,21 @@ nav {
     display: flex;
     justify-content: center;
     padding: 10px;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 1s;
 }
 
 .card:hover {
     transform: rotateY(180deg);
     transition: transform 0.5s;
 }
+
+.show{
+    opacity: 1;
+    transform: translatex(0);
+}
+
 
 .front,
 .back {
@@ -163,6 +174,7 @@ nav {
     align-items: center;
     color: white;
 }
+
 
 .title2 p {
     color: white;
@@ -330,7 +342,7 @@ footer{
 
 }
 .socialicon{
-    margin-top: 30px;
+    margin-top: 30px; 
     margin-left: 180px;
     
 
